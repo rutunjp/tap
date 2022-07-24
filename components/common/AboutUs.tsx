@@ -65,7 +65,7 @@ export default function AboutUs() {
             </Text>
           </Heading>
           <Heading as="h3" fontSize="36px">
-            We Build New Future With Best Techology
+            Your mini website in a card
           </Heading>
           <Text color={'gray.500'} fontSize={'lg'}>
             Gone are the days to worry about your Business cards getting
@@ -84,17 +84,17 @@ export default function AboutUs() {
                 <Icon as={IoEarthOutline} color={'green.500'} w={5} h={5} />
               }
               iconBg={'green.100'}
-              text={'Environment Friendly'}
+              text={'Direct Whatsapp Message'}
             />
             <Feature
               icon={<Icon as={BsGraphUp} color={'blue.500'} w={5} h={5} />}
               iconBg={'blue.100'}
-              text={'Always A Step Ahead'}
+              text={'Receive Payments'}
             />
             <Feature
               icon={<Icon as={BiRupee} color={'yellow.500'} w={5} h={5} />}
               iconBg={'yellow.100'}
-              text={'Affordable Pricing'}
+              text={'NFC & QR Enabled'}
             />
           </Stack>
         </Stack>

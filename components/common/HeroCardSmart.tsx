@@ -14,9 +14,9 @@ import { CheckIcon, CloseIcon, ArrowRightIcon } from '@chakra-ui/icons'
 
 export default function HeroCardSmart() {
   return (
-    <Center py={6}>
+    <Center>
       <Box
-        minW={'330px'}
+        minW={'300px'}
         w={'full'}
         bg={'white'}
         boxShadow={'2xl'}
@@ -36,22 +36,8 @@ export default function HeroCardSmart() {
 
         <Box bg={'white'} px={6} py={10}>
           <List spacing={3}>
-            <ListItem>
-              <ListIcon as={CheckIcon} color="green.400" />
-              NFC Enabled
-            </ListItem>
-            <ListItem>
-              <ListIcon as={CheckIcon} color="green.400" />
-              QR Code
-            </ListItem>
-            <ListItem>
-              <ListIcon as={CloseIcon} color="red.300" />
-              Custom Design
-            </ListItem>
-            <ListItem>
-              <ListIcon as={CloseIcon} color="red.300" />
-              Limited to 5 iterations
-            </ListItem>
+            <ListItem>NFC Enabled</ListItem>
+            <ListItem>QR Code</ListItem>
           </List>
 
           <Button

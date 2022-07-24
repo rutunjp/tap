@@ -35,22 +35,10 @@ export default function HeroCardPersonalised() {
 
         <Box bg={'white'} px={6} py={10}>
           <List spacing={3}>
-            <ListItem>
-              <ListIcon as={CheckIcon} color="green.400" />
-              NFC Enabled
-            </ListItem>
-            <ListItem>
-              <ListIcon as={CheckIcon} color="green.400" />
-              QR Code
-            </ListItem>
-            <ListItem>
-              <ListIcon as={CheckIcon} color="green.400" />
-              Custom Design
-            </ListItem>
-            <ListItem>
-              <ListIcon as={CheckIcon} color="green.400" />
-              No Iteration Limit
-            </ListItem>
+            <ListItem>NFC Enabled</ListItem>
+            <ListItem>QR Code</ListItem>
+            <ListItem>Custom Design</ListItem>
+            <ListItem>No Iteration Limit</ListItem>
           </List>
 
           <Button

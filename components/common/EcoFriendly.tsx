@@ -13,7 +13,7 @@ export default function EcoFriendly() {
           maxW={['80%', '40%']}
           src="/images/recycle.svg"
           alt="eco-friendly illustration"
-          paddingBottom={'3em'}
+          paddingBottom={'3em`'}
         />
         <VStack>
           <SectionHeading headingText="Eco-Friendly"></SectionHeading>
@@ -22,6 +22,7 @@ export default function EcoFriendly() {
             textAlign={'center'}
             color={'gray.600'}
             fontSize={'xl'}
+            className='section-text'
           >
             Every Year 100 million plus business cards are printed annually in
             India alone, out of which 90% of these are disposed away within a
