@@ -39,6 +39,7 @@ export default function HeroCardPersonalised() {
             <ListItem>QR Code</ListItem>
             <ListItem>Custom Design</ListItem>
             <ListItem>No Iteration Limit</ListItem>
+            <ListItem>Feature 5</ListItem>
           </List>
 
           <Button

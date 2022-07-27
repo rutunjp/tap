@@ -14,7 +14,6 @@ import {
 import { IoEarthOutline } from 'react-icons/io5'
 import { BsGraphUp } from 'react-icons/bs'
 import { BiRupee } from 'react-icons/bi'
-import { MdLoop } from 'react-icons/md'
 import { ReactElement } from 'react'
 
 interface FeatureProps {
@@ -47,7 +46,7 @@ export default function AboutUs() {
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
         <Stack spacing={4}>
           <Heading as="h4" fontSize="22px">
-            <Text
+            {/* <Text
               as={'span'}
               position={'relative'}
               _after={{
@@ -61,11 +60,24 @@ export default function AboutUs() {
                 zIndex: -1,
               }}
             >
-              About Us <br />
-            </Text>
+              About Us
+            </Text> */}
           </Heading>
           <Heading as="h3" fontSize="36px">
-            Your mini website in a card
+            Your  <Text
+              as={'span'}
+              position={'relative'}
+              _after={{
+                content: "''",
+                width: 'full',
+                height: useBreakpointValue({ base: '20%', md: '30%' }),
+                position: 'absolute',
+                bottom: 1,
+                left: 0,
+                bg: 'blue.200',
+                zIndex: -1,
+              }}
+            >mini website</Text> in a card
           </Heading>
           <Text color={'gray.500'} fontSize={'lg'}>
             Gone are the days to worry about your Business cards getting

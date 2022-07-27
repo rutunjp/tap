@@ -13,7 +13,7 @@ export default function Hero() {
   const MotionText = motion(Text)
   return (
     <Stack
-      minH={'90vh'}
+      minH={'76vh'}
       align={'center'}
       direction={{ base: 'column', md: 'row' }}
     >

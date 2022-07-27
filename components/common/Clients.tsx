@@ -1,12 +1,15 @@
-import { List, ListItem } from '@chakra-ui/react'
-import ClientTestimonialCard from './ClientTestimonialCard'
+import { List, ListItem, Grid, Image } from '@chakra-ui/react'
 
 export default function Clients() {
   return (
-    <List>
-      <ListItem>
-        <ClientTestimonialCard />
-      </ListItem>
-    </List>
+    <Grid
+      width={'50%'}
+      templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']}
+      gap={6}
+    >
+      <Image src="/images/dga.png" alt="dgalogo" className="client-logo" />
+      <Image src="/images/dga.png" alt="dgalogo" className="client-logo" />
+      <Image src="/images/dga.png" alt="dgalogo" className="client-logo" />
+    </Grid>
   )
 }

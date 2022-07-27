@@ -17,7 +17,7 @@ export default function SectionHeading({ headingText }: any) {
           zIndex: -1,
         }}
       >
-        {headingText} <br />
+        {headingText} 
       </Text>
     </Heading>
   )

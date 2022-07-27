@@ -1,13 +1,6 @@
 import {
-  Stack,
-  Box,
-  Heading,
-  Text,
-  HStack,
-  Button,
-  VStack,
-  useBreakpointValue,
-  Icon,
+  Stack, 
+  VStack, 
 } from '@chakra-ui/react'
 import HeroCardSmart from './HeroCardSmart'
 import HeroCardPersonalised from './HeroCardPersonalised'

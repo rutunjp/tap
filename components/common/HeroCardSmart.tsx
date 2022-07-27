@@ -28,7 +28,7 @@ export default function HeroCardSmart() {
             <Text color={'blackAlpha.800'} fontSize={'4xl'} fontWeight={'bold'}>
               Smart
             </Text>
-          </Stack>{' '}
+          </Stack>
           <Text m={0} color={'gray.500'} fontSize={'2xl'} fontWeight={'medium'}>
             Tap Card
           </Text>
@@ -38,6 +38,7 @@ export default function HeroCardSmart() {
           <List spacing={3}>
             <ListItem>NFC Enabled</ListItem>
             <ListItem>QR Code</ListItem>
+            <ListItem>Feature 3</ListItem>
           </List>
 
           <Button

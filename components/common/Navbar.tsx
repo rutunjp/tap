@@ -34,7 +34,7 @@ export default function Navbar() {
         bg={useColorModeValue('white', 'gray.800')}
         color={useColorModeValue('gray.600', 'white')}
         minH={'60px'}
-        py={{ base: 2 }}
+        py={{ base: 1 }}
         px={{ base: 8 }}
         borderBottom={1}
         borderStyle={'solid'}
@@ -56,15 +56,9 @@ export default function Navbar() {
           />
         </Flex>
         <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
-          <Text
-            textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
-            fontFamily={'heading'}
-            color={useColorModeValue('gray.800', 'white')}
-          >
-            <Box width={'72px'}>
-              <Image src="/images/TA2.svg" alt="logo" objectFit={'cover'} />
-            </Box>
-          </Text>
+          <Box width={'72px'}>
+            <Image src="/images/TA2.svg" alt="logo" objectFit={'cover'} />
+          </Box>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
             <DesktopNav />
@@ -77,18 +71,20 @@ export default function Navbar() {
           direction={'row'}
           spacing={6}
         >
-          <Button
-            display={{ base: 'none', md: 'inline-flex' }}
-            fontSize={'sm'}
-            fontWeight={600}
-            color={'white'}
-            bg={'blue.400'}
-            _hover={{
-              bg: 'blue.500',
-            }}
-          >
-            Create Your Design
-          </Button>
+          <Link href={'#'}>
+            <Button
+              display={{ base: 'none', md: 'inline-flex' }}
+              fontSize={'sm'}
+              fontWeight={600}
+              color={'white'}
+              bg={'blue.400'}
+              _hover={{
+                bg: 'blue.500',
+              }}
+            >
+              Create your Smart Card
+            </Button>
+          </Link>
         </Stack>
       </Flex>
 
@@ -262,6 +258,7 @@ interface NavItem {
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: 'About Us',
+    href: '#',
     // children: [
     //   {
     //     label: 'Explore Design Work',
@@ -277,6 +274,7 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: 'Products',
+    href: '#',
     // children: [
     //   {
     //     label: 'Job Board',
