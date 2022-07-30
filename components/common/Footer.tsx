@@ -58,7 +58,7 @@ export default function Footer() {
         justify={'center'}
         align={'center'}
       >
-        <Image src="/images/tapLogo.svg" alt="logo" />
+        <Image src="/images/logo.svg" alt="logo" />
         <Stack direction={'row'} spacing={6}>
           <Link href={'#'}>Home</Link>
           <Link href={'#'}>About</Link>

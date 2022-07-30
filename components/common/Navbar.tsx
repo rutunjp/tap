@@ -57,7 +57,7 @@ export default function Navbar() {
         </Flex>
         <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
           <Box width={'72px'}>
-            <Image src="/images/TA2.svg" alt="logo" objectFit={'cover'} />
+            <Image src="/images/logo.svg" alt="logo" objectFit={'cover'} />
           </Box>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
